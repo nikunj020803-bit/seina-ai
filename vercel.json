@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "pnpm --filter @workspace/seina-website run build && cp -r artifacts/seina-website/dist/public ./dist",
+  "buildCommand": "pnpm --filter @workspace/seina-website run build",
   "outputDirectory": "dist",
   "installCommand": "pnpm install --frozen-lockfile",
   "framework": null,
